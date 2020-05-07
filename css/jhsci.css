@@ -48,11 +48,8 @@ body {
 
 .tag {
 	color: #286140;
-	padding-bottom: 4px;
-	padding-top: 4px;
 	text-align: center;
-	padding-left: 20px;
-	padding-right: 20px;
+	font-size: 0.9em;
 }
 
 .blurb-body {
@@ -69,4 +66,8 @@ footer {
 	font-size: 4em;
 	color: #68ACE5;
 	margin-bottom: 10px;
+}
+
+.card-title{
+	text-transform: capitalize;
 }
