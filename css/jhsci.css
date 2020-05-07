@@ -12,10 +12,13 @@ $AccentGreenYellow	: #719949;
 $AccentRed			: #76232F;
 */
 
-/* change the background color */
+/* change the navbar background color */
 .navbar-custom {
 /*    background-color: #002D72;*/
-	background-image: linear-gradient(15deg, #002D72 0%, #305DA2 100%);
+	background-image: -webkit-linear-gradient(285deg, #002D72 25%, #305DA2CC 100%);
+	background-image: -o-linear-gradient(285deg, #002D72 25%, #305DA2CC 100%);
+	background-image: linear-gradient(15deg, #002D72 25%, #305DA2CC 100%);
+	/*background-image: linear-gradient(15deg, #002D72 25%, #88AAFF 100%);*/
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
