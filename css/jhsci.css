@@ -64,3 +64,9 @@ body {
 footer {
 	font-size: 0.8em;
 }
+
+.mainIcon {
+	font-size: 4em;
+	color: #68ACE5;
+	margin-bottom: 10px;
+}
