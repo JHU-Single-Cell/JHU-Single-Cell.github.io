@@ -36,11 +36,13 @@ $AccentRed			: #76232F;
     color: #F1C400;
 }
 
-.jumbotron {
+.jumbotronMain {
 	background-image: url("../images/draft_5_color.jpg");
 	background-size: cover;
 	background-position: center;
 	margin: auto;
+	overflow: hidden;
+	position: relative;
 }
 
 body {
@@ -74,4 +76,10 @@ footer {
 
 .card-title{
 	text-transform: capitalize;
+}
+
+.card-img {
+	height: 225px;
+	object-fit: cover;
+	object-position: top;
 }
