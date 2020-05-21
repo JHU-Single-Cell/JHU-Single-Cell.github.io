@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- TemplateBeginEditable name="Title" -->
   <title>JHU Single Cell Initiative</title>
-  <!-- TemplateEndEditable -->
+  <!-- TemplateEndEditable --> 
   <!-- Bootstrap -->
   <!-- <link href="../css/bootstrap-4.3.1.css" rel="stylesheet"> -->
   <link href="../css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css"> 
@@ -26,17 +26,29 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 		  <li class="nav-item">
+			<a class="nav-link" href="engage.html">Contact Us</a>
+		  </li>	
+<!--
+		  <li class="nav-item">
 			<a class="nav-link" href="news.html">News</a>
 		  </li>
+-->
+<!--
 		  <li class="nav-item">
 			<a class="nav-link" href="research.html">Research</a>
 		  </li>
+-->
+<!--
 		  <li class="nav-item">
 			<a class="nav-link" href="resources.html">Resources</a>
 		  </li>
+-->
+<!--
 		  <li class="nav-item">
 			<a class="nav-link" href="education.html">Education</a>
 		  </li>
+-->
+<!--
 		  <li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			People
@@ -48,12 +60,15 @@
 			  <a class="dropdown-item" href="staff.html">Staff</a>
 			</div>
 		  </li>
+-->
 		  <li class="nav-item">
 			<a class="nav-link disabled" href="fellowship.html">Fellowship Program</a>
 		  </li>	
+<!--
 		  <li class="nav-item">
 			<a class="nav-link" href="links.html">Links</a>
 		  </li>
+-->
 
 		</ul>
         <!-- Maybe layter
@@ -94,7 +109,8 @@
 			  </div>
 			</div>
 		  </div>
-		</section>
+		 
+        </section> 
 	<!-- TemplateEndEditable -->
   <!-- TemplateBeginIf cond="IsMainPage" -->
 	<!-- TemplateBeginEditable name="ExtendedFooter" -->
@@ -158,16 +174,18 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>Copyright © 2020 JHU. All rights reserved.</p>
+            <p>Copyright © 2020 JHU. All rights reserved.</p> 
           </div>
         </div>
       </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <!-- <script src="js/bootstrap-4.3.1.js"></script> -->
   <script src="../js/bootstrap-4.4.1.js"></script>
+
 </body>
 </html>

@@ -83,3 +83,15 @@ footer {
 	object-fit: cover;
 	object-position: top;
 }
+
+/* Form mods */
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 2em;
+    color: #36A0FF;
+}
