@@ -1,8 +1,5 @@
 // JavaScript Document
 
-// Initialize InputMask
-$(":input").inputmask();
-
 var $form = $('form#engage-form'),
     $url = 'https://script.google.com/macros/s/AKfycbzV1f3DollZkQN-wunGs1Af7gYKXUHc2hb01kFMZRW8FERJZmo/exec'
 

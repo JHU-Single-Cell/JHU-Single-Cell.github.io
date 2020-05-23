@@ -92,6 +92,12 @@ footer {
 }
 
 .bigicon {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #36A0FF;
+}
+
+.form-check-group-ul{
+  column-count: 2;
+  column-gap: 1rem;
+  list-style: none;
 }
